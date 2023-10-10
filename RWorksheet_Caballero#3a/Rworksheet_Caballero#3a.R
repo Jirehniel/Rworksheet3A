@@ -1,3 +1,24 @@
+#1.
+#a
+elevenLetters <- LETTERS[1:11]
+elevenLetters
+#[1] "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K"
+#b
+oddNumLetters<- LETTERS [1:26 %% 2 == 1]
+oddNumLetters
+#[1] "A" "C" "E" "G" "I" "K" "M" "O" "Q" "S" "U" "W" "Y"
+#c.
+vowels <- LETTERS [c(1,5,9,15,21)]
+vowels
+#[1] "A" "E" "I" "O" "U"
+#d
+smallLetters <- letters[1:5]
+smallLetters
+# [1] "a" "b" "c" "d" "e"
+#e.
+letters2 <- letters[15:24]
+letters2
+#[1] "o" "p" "q" "r" "s" "t" "u" "v" "w" "x"
 #2.
 #a.
 city <- c("Tuguegarao City", "Manila", "Iloilo City", "Tacloban", "Samal Island", "Davao City")
